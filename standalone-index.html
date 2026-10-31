@@ -3,13 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dr. Avinash Kasundra | Consultant Intensivist &amp; Pulmonologist | Premier Hospital &amp; ICU Rajkot</title>
-  <meta name="description" content="Official website of Dr. Avinash Kasundra, Consultant Intensivist and Pulmonologist at Premier Hospital &amp; ICU, Rajkot. MBBS, MD (Respiratory Medicine), Critical Care Fellowship (Lilavati Hospital, Mumbai).">
-  <meta name="keywords" content="Dr Avinash Kasundra, Pulmonologist Rajkot, Intensivist Rajkot, Premier Hospital Rajkot, Critical Care Rajkot">
-  <meta name="author" content="Dr. Avinash Kasundra, Premier Hospital &amp; ICU">
-  <meta name="robots" content="index, follow">
-  
+  <title>Dr. Avinash Kasundra | Premier Hospital &amp; ICU Rajkot</title>
+  <meta name="description" content="Digital Profile &amp; Practice Link of Dr. Avinash Kasundra, Consultant Intensivist &amp; Pulmonologist at Premier Hospital &amp; ICU, Rajkot. MBBS, MD, Lilavati Hospital Critical Care Fellow.">
   <link rel="icon" type="image/svg+xml" href="./public/assets/favicon.svg">
+  
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
@@ -19,392 +16,310 @@
     tailwind.config = {
       theme: {
         extend: {
-          colors: {
-            'navy-primary': '#263F91',
-            'navy-deep': '#152B56',
-            'soft-bg': '#F5F8FC'
-          },
           fontFamily: {
-            sans: ['Plus Jakarta Sans', 'system-ui', '-apple-system', 'sans-serif'],
-            heading: ['Outfit', 'Plus Jakarta Sans', 'sans-serif']
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+            heading: ['Outfit', 'sans-serif']
           }
         }
       }
     }
   </script>
 </head>
-<body class="bg-slate-50/50 text-slate-800 font-sans antialiased selection:bg-[#263F91] selection:text-white">
+<body class="bg-[#070e1e] text-white font-sans antialiased flex justify-center py-4 sm:py-8 px-2 sm:px-4 selection:bg-[#263F91] selection:text-white min-h-screen">
 
-  <!-- 1. TOP EMERGENCY HOTLINE (FULL-WIDTH) -->
-  <aside aria-label="Emergency hotline banner" class="bg-[#152B56] text-white py-2 px-4 sm:px-8 border-b border-blue-900/40 text-xs">
-    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2">
-      <div class="flex items-center gap-2">
-        <span class="flex h-2.5 w-2.5 relative">
-          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-red-500"></span>
-        </span>
-        <span class="font-bold tracking-wide text-red-300 uppercase">
-          🚨 24/7 ICU &amp; Critical Care Emergency
-        </span>
-        <span class="hidden md:inline text-blue-300">|</span>
-        <span class="hidden md:inline text-blue-100/90 font-medium">Premier Hospital &amp; ICU, 150ft Ring Road, Rajkot</span>
-      </div>
+  <!-- Ambient Glow -->
+  <div class="fixed inset-0 pointer-events-none overflow-hidden z-0">
+    <div class="absolute -top-40 left-1/2 -translate-x-1/2 w-[42rem] h-[42rem] bg-gradient-to-b from-[#263F91]/35 via-[#152B56]/20 to-transparent rounded-full blur-3xl opacity-75"></div>
+    <div class="absolute top-1/2 -left-40 w-80 h-80 bg-blue-600/10 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-10 -right-40 w-96 h-96 bg-indigo-600/15 rounded-full blur-3xl"></div>
+  </div>
 
-      <div class="flex items-center gap-4">
-        <span class="hidden lg:inline text-blue-200">
-          🕒 OPD Hours: 10:00 AM – 1:00 PM &bull; 5:00 PM – 8:00 PM
-        </span>
-        <a href="tel:+919925601601" class="inline-flex items-center gap-1.5 bg-red-600 hover:bg-red-700 text-white font-bold px-3 py-1 rounded-md transition-colors text-xs">
-          <span>Emergency: 9925 601 601</span>
-        </a>
-      </div>
-    </div>
-  </aside>
-
-  <!-- 2. DOCTOR BIO PROFILE MASTHEAD -->
-  <section class="relative bg-gradient-to-b from-[#F5F8FC] via-white to-slate-50/50 border-b border-slate-200/90 pt-8 pb-12 overflow-hidden">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      
-      <!-- Hospital Branding Header -->
-      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 pb-6 mb-8 border-b border-slate-200/80">
-        <a href="https://premierhospital.co.in" target="_blank" rel="noopener noreferrer" class="flex items-center gap-3">
-          <img src="./public/assets/premier-hospital-logo.png" alt="Premier Hospital &amp; ICU" class="h-10 sm:h-12 w-auto object-contain">
-        </a>
-
-        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white border border-slate-200 shadow-xs text-xs font-semibold text-slate-700">
-          <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
-          <span>OPD Active &bull; Mon to Sat (10–1 &bull; 5–8)</span>
-        </div>
-      </div>
-
-      <!-- Masthead Grid -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-        
-        <div class="lg:col-span-8 space-y-5">
-          <div class="flex flex-wrap items-center gap-2">
-            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-[#EAF0FA] text-[#263F91] text-xs font-bold uppercase tracking-wider">
-              🏥 Premier Hospital &amp; ICU &bull; Rajkot
-            </span>
-            <span class="inline-flex items-center gap-1 px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-semibold">
-              ✔ Verified Consultant Physician
-            </span>
-          </div>
-
-          <div class="space-y-1">
-            <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#152B56] tracking-tight">
-              Dr. Avinash Kasundra
-            </h1>
-            <p class="text-lg sm:text-xl font-bold text-[#263F91]">
-              Consultant Intensivist &amp; Pulmonologist
-            </p>
-          </div>
-
-          <div class="p-4 sm:p-5 rounded-2xl bg-white border border-slate-200 shadow-sm space-y-2">
-            <div>
-              <h2 class="text-xs font-bold text-[#152B56] uppercase tracking-wider">
-                Medical Qualifications &amp; Fellowships
-              </h2>
-              <p class="text-sm font-semibold text-slate-900 mt-0.5">
-                MBBS, MD (Respiratory Medicine) &bull; <span class="text-[#263F91] font-bold">Fellowship in Critical Care Medicine (Lilavati Hospital, Mumbai)</span>
-              </p>
-            </div>
-            <p class="text-xs sm:text-sm text-slate-600 leading-relaxed pt-2 border-t border-slate-100">
-              Dedicated medical care in respiratory medicine and critical care, with a focus on professional consultation, patient support, and round-the-clock intensive care.
-            </p>
-          </div>
-
-          <div class="flex flex-wrap items-center gap-3 pt-1">
-            <a href="#book-opd" class="inline-flex items-center gap-2 bg-[#263F91] hover:bg-[#152B56] text-white text-sm font-semibold px-6 py-3 rounded-xl shadow-md transition-colors">
-              <span>📅 Book OPD Appointment</span>
-            </a>
-            <a href="https://wa.me/919428587969?text=Hello%20Dr.%20Avinash%20Kasundra,%20I%20would%20like%20to%20inquire%20about%20an%20appointment%20at%20Premier%20Hospital%20%26%20ICU,%20Rajkot." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold px-5 py-3 rounded-xl shadow-md transition-colors">
-              <span>💬 WhatsApp Inquire</span>
-            </a>
-            <a href="tel:+919428587969" class="inline-flex items-center gap-2 bg-white hover:bg-slate-50 text-[#152B56] text-sm font-bold px-4 py-3 rounded-xl border border-slate-300 shadow-xs transition-colors">
-              <span>📞 +91 94285 87969</span>
-            </a>
-          </div>
-
-          <!-- Quick facts -->
-          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
-            <div class="p-3 rounded-xl bg-white border border-slate-200">
-              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Super-Specialty</span>
-              <span class="text-xs font-bold text-[#152B56] block mt-0.5">Critical Care</span>
-              <span class="text-[10px] text-[#263F91] font-semibold">Lilavati Mumbai</span>
-            </div>
-            <div class="p-3 rounded-xl bg-white border border-slate-200">
-              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Specialty</span>
-              <span class="text-xs font-bold text-[#152B56] block mt-0.5">Pulmonology</span>
-              <span class="text-[10px] text-emerald-700 font-semibold">MD Respiratory</span>
-            </div>
-            <div class="p-3 rounded-xl bg-white border border-slate-200">
-              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">OPD Hours</span>
-              <span class="text-xs font-bold text-[#152B56] block mt-0.5">10–1 &bull; 5–8 PM</span>
-              <span class="text-[10px] text-slate-500 font-medium">Mon to Sat</span>
-            </div>
-            <div class="p-3 rounded-xl bg-white border border-slate-200">
-              <span class="text-[10px] font-bold text-slate-400 uppercase tracking-wider block">Emergency</span>
-              <span class="text-xs font-bold text-red-600 block mt-0.5">24 × 7 ICU</span>
-              <span class="text-[10px] text-red-500 font-medium">Helpline Active</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="lg:col-span-4 flex justify-center lg:justify-end">
-          <div class="relative w-full max-w-xs sm:max-w-sm">
-            <div class="bg-white rounded-3xl p-3 shadow-xl border border-slate-200 overflow-hidden">
-              <div class="relative aspect-square sm:aspect-[4/5] rounded-2xl overflow-hidden bg-slate-100">
-                <img src="./public/assets/doctor.jpeg" alt="Dr. Avinash Kasundra" class="w-full h-full object-cover object-top">
-                <div class="absolute top-2.5 left-2.5 bg-[#152B56]/95 backdrop-blur-md text-white text-[10px] font-semibold px-2.5 py-1 rounded-md border border-white/20 shadow">
-                  Lilavati Hospital Fellow
-                </div>
-                <div class="absolute bottom-2.5 right-2.5 bg-white/95 backdrop-blur-md text-[#152B56] text-[10px] font-bold px-2 py-0.5 rounded shadow">
-                  Premier Hospital &amp; ICU
-                </div>
-              </div>
-              <div class="p-3 text-center">
-                <span class="text-sm font-bold text-[#152B56] block">Dr. Avinash Kasundra</span>
-                <span class="text-xs font-semibold text-[#263F91] block">Consultant Intensivist &amp; Pulmonologist</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section>
-
-  <!-- 3. INTERACTIVE SECTION TABS -->
-  <section class="sticky top-0 z-30 bg-white/95 backdrop-blur-md border-b border-slate-200 py-3">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex items-center gap-2 overflow-x-auto">
-        <a href="#about" class="px-4 py-2 rounded-xl text-xs font-bold bg-[#263F91] text-white shrink-0">Profile Overview</a>
-        <a href="#credentials" class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 shrink-0">Qualifications</a>
-        <a href="#conditions" class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 shrink-0">Practice Areas</a>
-        <a href="#schedule" class="px-4 py-2 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 hover:bg-slate-200 shrink-0">Timings &amp; Hospital</a>
-        <a href="#book-opd" class="ml-auto px-4 py-2 rounded-xl text-xs font-bold bg-emerald-50 text-emerald-800 border border-emerald-300 hover:bg-emerald-100 shrink-0">Book Consultation</a>
-      </div>
-    </div>
-  </section>
-
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10 space-y-12">
+  <main class="relative z-10 w-full max-w-[440px] flex flex-col items-center">
     
-    <!-- About Section -->
-    <section id="about" class="space-y-4">
-      <h2 class="text-xl sm:text-2xl font-bold text-[#152B56]">About Dr. Avinash Kasundra</h2>
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        <div class="lg:col-span-8 space-y-4 text-slate-700 text-sm sm:text-base leading-relaxed">
-          <p>
-            <strong class="text-[#152B56] font-bold">Dr. Avinash Kasundra</strong> is a Consultant Intensivist and Pulmonologist practicing at 
-            <span class="text-[#263F91] font-semibold">Premier Hospital &amp; ICU, Rajkot</span>. 
-            His clinical career focuses on delivering specialized intensive care resuscitation and comprehensive outpatient respiratory medicine.
-          </p>
-          <p>
-            Having accomplished his <strong class="text-slate-900">MBBS</strong> and post-graduate <strong class="text-slate-900">MD in Respiratory Medicine</strong>, 
-            Dr. Kasundra completed his super-specialty <strong class="text-[#263F91]">Fellowship in Critical Care Medicine at Lilavati Hospital, Mumbai</strong>—one 
-            of the premier tertiary care and critical care training centers in India.
-          </p>
-        </div>
-        <div class="lg:col-span-4 bg-white p-5 rounded-2xl border border-slate-200 space-y-3 text-xs">
-          <h3 class="font-bold text-[#152B56] uppercase">Consultation Summary</h3>
-          <p>🕒 <strong>OPD:</strong> 10:00 AM – 1:00 PM | 5:00 PM – 8:00 PM</p>
-          <p class="text-red-700 font-semibold">🚨 <strong>ICU Emergency:</strong> 24 × 7 Available</p>
-          <p>📍 1st &amp; 7th Floor, RK Prime Plus, Balaji Hall Circle, Rajkot</p>
-          <a href="#book-opd" class="block text-center bg-[#263F91] text-white py-2.5 rounded-xl font-bold">Reserve OPD Slot</a>
+    <!-- Top Bar -->
+    <div class="w-full flex items-center justify-between px-3 py-2 text-xs">
+      <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/10 text-[11px] font-medium text-slate-300 shadow-lg">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>OPD Active &bull; Mon to Sat (10–1 &bull; 5–8)</span>
+      </div>
+
+      <button onclick="shareLink()" class="p-2 rounded-full bg-slate-900/80 backdrop-blur-md border border-white/10 hover:bg-slate-800 text-slate-300">
+        🔗
+      </button>
+    </div>
+
+    <!-- Avatar with glowing ring -->
+    <div class="relative mt-3 mb-4">
+      <div class="absolute -inset-1 rounded-full bg-gradient-to-tr from-[#263F91] via-blue-400 to-amber-300 opacity-80 blur-xs"></div>
+      <div class="relative w-32 h-32 sm:w-36 sm:h-36 rounded-full overflow-hidden p-1 bg-gradient-to-b from-white/30 to-white/5 border border-white/20 shadow-2xl">
+        <img src="./public/assets/doctor.jpeg" alt="Dr. Avinash Kasundra" class="w-full h-full object-cover object-top rounded-full">
+      </div>
+      <div class="absolute -bottom-2 inset-x-0 mx-auto w-fit bg-gradient-to-r from-[#263F91] to-[#152B56] text-white text-[10px] font-extrabold uppercase tracking-wider px-3 py-0.5 rounded-full border border-blue-300/40 shadow-lg">
+        ⭐ Lilavati Fellow
+      </div>
+    </div>
+
+    <!-- Doctor Info -->
+    <div class="text-center px-4 space-y-1.5 mt-2">
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-white tracking-tight font-heading">
+        Dr. Avinash Kasundra
+      </h1>
+      <p class="text-xs sm:text-sm font-bold text-blue-300">
+        Consultant Intensivist &amp; Pulmonologist
+      </p>
+      <p class="text-[11px] text-slate-400 font-medium">
+        MBBS, MD (Respiratory Medicine) &bull; Critical Care Medicine (Mumbai)
+      </p>
+
+      <div class="pt-2 flex items-center justify-center">
+        <div class="bg-white px-3.5 py-1.5 rounded-xl shadow-lg inline-flex items-center gap-2">
+          <img src="./public/assets/premier-hospital-logo.png" alt="Premier Hospital &amp; ICU" class="h-6 w-auto object-contain">
         </div>
       </div>
-    </section>
+    </div>
 
-    <!-- Qualifications -->
-    <section id="credentials" class="space-y-4">
-      <h2 class="text-xl sm:text-2xl font-bold text-[#152B56]">Education &amp; Professional Qualifications</h2>
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-        <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-2">
-          <div class="w-12 h-12 rounded-xl bg-blue-50 text-[#263F91] flex items-center justify-center font-bold text-base">MBBS</div>
-          <span class="text-[10px] font-bold text-[#263F91] uppercase block">Graduation</span>
-          <h3 class="text-base font-bold text-[#152B56]">Bachelor of Medicine &amp; Surgery</h3>
-          <p class="text-xs text-slate-600">Core clinical undergraduate medical education and hospital internship.</p>
-        </div>
+    <!-- Quick Circle Actions -->
+    <div class="flex items-center justify-center gap-4 my-5">
+      <a href="tel:+919428587969" class="w-12 h-12 rounded-full bg-gradient-to-br from-blue-600 to-blue-800 text-white flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-transform border border-blue-400/40">
+        📞
+      </a>
+      <a href="https://wa.me/919428587969?text=Hello%20Dr.%20Avinash%20Kasundra,%20I%20would%20like%20to%20inquire%20about%20an%20appointment%20at%20Premier%20Hospital%20%26%20ICU,%20Rajkot." target="_blank" rel="noopener noreferrer" class="w-12 h-12 rounded-full bg-gradient-to-br from-[#25D366] to-[#128C7E] text-white flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-transform border border-green-300/40">
+        💬
+      </a>
+      <a href="tel:+919925601601" class="w-12 h-12 rounded-full bg-gradient-to-br from-red-500 to-red-700 text-white flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-transform border border-red-400/40 relative">
+        <span class="absolute -top-0.5 -right-0.5 w-3 h-3 bg-red-400 rounded-full animate-ping"></span>
+        🚨
+      </a>
+      <a href="https://maps.google.com/?q=Premier+Hospital+ICU+RK+Prime+Plus+150+Feet+Ring+Road+Rajkot" target="_blank" rel="noopener noreferrer" class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-500 to-amber-700 text-white flex items-center justify-center shadow-lg hover:scale-105 active:scale-95 transition-transform border border-amber-300/40">
+        📍
+      </a>
+    </div>
 
-        <div class="bg-white p-6 rounded-2xl border border-slate-200 space-y-2">
-          <div class="w-12 h-12 rounded-xl bg-[#263F91] text-white flex items-center justify-center font-bold text-base">MD</div>
-          <span class="text-[10px] font-bold text-emerald-700 uppercase block">Postgraduate Specialty</span>
-          <h3 class="text-base font-bold text-[#152B56]">MD (Respiratory Medicine)</h3>
-          <p class="text-xs text-slate-600">Specialized post-graduate pulmonology qualification in chest and airway medicine.</p>
-        </div>
-
-        <div class="bg-white p-6 rounded-2xl border-2 border-blue-200 space-y-2">
-          <div class="w-12 h-12 rounded-xl bg-[#152B56] text-white flex items-center justify-center font-bold text-base">🏆</div>
-          <span class="text-[10px] font-bold text-[#263F91] uppercase block">Critical Care Fellowship</span>
-          <h3 class="text-base font-bold text-[#152B56]">Critical Care Medicine</h3>
-          <p class="text-xs font-bold text-[#263F91]">Lilavati Hospital – Mumbai</p>
-          <p class="text-xs text-slate-600">Super-specialty fellowship: mechanical ventilation, ARDS, and septic shock.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Practice Areas -->
-    <section id="conditions" class="space-y-4">
-      <h2 class="text-xl sm:text-2xl font-bold text-[#152B56]">Pulmonary &amp; Critical Care Practice Areas</h2>
-      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
-        <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-          <h3 class="text-sm font-bold text-[#152B56]">❤️‍🩹 Critical Care &amp; ICU Management</h3>
-          <p class="text-xs text-slate-600">Bedside management of multi-organ failure, hemodynamic monitoring, and septic shock.</p>
-        </div>
-        <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-          <h3 class="text-sm font-bold text-[#152B56]">🫁 Invasive Mechanical Ventilation</h3>
-          <p class="text-xs text-slate-600">Pressure/volume ventilator modes, non-invasive BiPAP/CPAP, and weaning protocols.</p>
-        </div>
-        <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-          <h3 class="text-sm font-bold text-[#152B56]">⚡ Severe ARDS &amp; Respiratory Failure</h3>
-          <p class="text-xs text-slate-600">Evidence-based prone positioning, lung-protective ventilation, and hypoxemic care.</p>
-        </div>
-        <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-          <h3 class="text-sm font-bold text-[#152B56]">💨 Asthma, COPD &amp; Chronic Cough</h3>
-          <p class="text-xs text-slate-600">Specialized consultation for chronic airway disease, acute asthma, and inhaler plans.</p>
-        </div>
-        <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-          <h3 class="text-sm font-bold text-[#152B56]">🔬 Diagnostic Bronchoscopy &amp; Pleural Care</h3>
-          <p class="text-xs text-slate-600">Flexible bronchoscopy, pleural fluid taps, and intercostal chest tube insertion.</p>
-        </div>
-        <div class="p-5 rounded-2xl bg-white border border-slate-200 space-y-1.5">
-          <h3 class="text-sm font-bold text-[#152B56]">✅ Post-ICU Pulmonary Rehabilitation</h3>
-          <p class="text-xs text-slate-600">Structured post-critical care follow-ups, tracheostomy care, and pulmonary rehab.</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- Hospital & Schedule -->
-    <section id="schedule" class="space-y-4">
-      <h2 class="text-xl sm:text-2xl font-bold text-[#152B56]">Premier Hospital Association &amp; Timings</h2>
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
-        <div class="lg:col-span-5 bg-white p-6 rounded-3xl border border-slate-200 space-y-4">
-          <img src="./public/assets/premier-hospital-logo.png" alt="Premier Hospital" class="h-10 w-auto object-contain">
-          <h3 class="text-lg font-bold text-[#152B56]">Premier Hospital &amp; ICU, Rajkot</h3>
-          <p class="text-xs text-slate-600 leading-relaxed">
-            Leading critical care facility equipped with an Intensive Care Unit, ventilator infrastructure, and around-the-clock intensive care physicians.
-          </p>
-          <p class="text-xs text-slate-700">📍 1st &amp; 7th Floor, RK Prime Plus, 150ft Ring Road, Rajkot.</p>
-          <a href="https://maps.google.com/?q=Premier+Hospital+ICU+RK+Prime+Plus+150+Feet+Ring+Road+Rajkot" target="_blank" rel="noopener noreferrer" class="block text-center bg-[#263F91] text-white text-xs font-bold py-2.5 rounded-xl">
-            Google Maps Directions &rarr;
-          </a>
-        </div>
-
-        <div class="lg:col-span-7 space-y-4">
-          <div class="bg-white p-6 rounded-3xl border border-slate-200 space-y-3">
-            <h3 class="text-base font-bold text-[#152B56]">Routine OPD Consultation Hours</h3>
-            <div class="grid grid-cols-2 gap-3 text-xs">
-              <div class="p-3 rounded-xl bg-blue-50/50">
-                <span class="font-bold text-[#263F91] block">Morning Slot</span>
-                <span class="text-sm font-bold text-[#152B56]">10:00 AM – 1:00 PM</span>
-              </div>
-              <div class="p-3 rounded-xl bg-blue-50/50">
-                <span class="font-bold text-[#263F91] block">Evening Slot</span>
-                <span class="text-sm font-bold text-[#152B56]">5:00 PM – 8:00 PM</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="bg-red-50/80 p-6 rounded-3xl border border-red-200 space-y-2">
-            <span class="px-2.5 py-0.5 rounded-full bg-red-600 text-white text-[10px] font-bold">24 × 7 AVAILABLE</span>
-            <h3 class="text-base font-bold text-red-950">Emergency &amp; Critical Care Unit</h3>
-            <p class="text-xs text-red-800">For acute respiratory distress, severe pneumonia, or emergency ICU admissions.</p>
-            <a href="tel:+919925601601" class="inline-block bg-red-600 text-white text-xs font-bold px-4 py-2 rounded-xl">
-              Call Emergency: 9925 601 601
-            </a>
+    <!-- The Signature Rich Link Pills -->
+    <div class="w-full space-y-3 px-1">
+      
+      <!-- Pill 1: Book OPD -->
+      <button onclick="openBooking()" class="w-full relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-r from-[#D97706]/90 via-[#B45309]/80 to-[#78350F]/90 border border-amber-400/40 shadow-xl text-left flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-lg">📅</div>
+          <div>
+            <span class="text-sm font-bold text-white block font-heading">Book an OPD Appointment</span>
+            <span class="text-[11px] text-amber-100 font-medium block">Morning: 10–1 PM &bull; Evening: 5–8 PM</span>
           </div>
         </div>
-      </div>
-    </section>
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white">&gt;</div>
+      </button>
 
-    <!-- Appointment Form -->
-    <section id="book-opd" class="pt-4">
-      <div class="bg-white rounded-3xl p-6 sm:p-10 shadow-lg border border-slate-200 max-w-4xl mx-auto">
-        <h2 class="text-2xl font-bold text-[#152B56] text-center mb-6">Book an OPD Appointment</h2>
-        
-        <form id="standaloneForm" onsubmit="handleFormSubmit(event)" class="space-y-4">
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            <div>
-              <label class="block text-xs font-bold text-[#152B56] uppercase mb-1">Full Name *</label>
-              <input type="text" id="fName" required placeholder="Patient Name" class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-300 focus:border-[#263F91] focus:outline-none">
-            </div>
-            <div>
-              <label class="block text-xs font-bold text-[#152B56] uppercase mb-1">Mobile Number (Indian 10-digit) *</label>
-              <input type="tel" id="fPhone" maxlength="10" required pattern="^[6-9]\d{9}$" placeholder="98250 12345" class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-300 focus:border-[#263F91] focus:outline-none">
-            </div>
+      <!-- Pill 2: WhatsApp -->
+      <a href="https://wa.me/919428587969?text=Hello%20Dr.%20Avinash%20Kasundra,%20I%20would%20like%20to%20inquire%20about%20an%20appointment%20at%20Premier%20Hospital%20%26%20ICU,%20Rajkot." target="_blank" rel="noopener noreferrer" class="w-full relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-r from-[#059669]/90 via-[#047857]/80 to-[#065F46]/90 border border-emerald-400/40 shadow-xl text-left flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-lg">💬</div>
+          <div>
+            <span class="text-sm font-bold text-white block font-heading">Chat on WhatsApp</span>
+            <span class="text-[11px] text-emerald-100 font-medium block">Fastest Appointment Inquiry</span>
           </div>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white">&gt;</div>
+      </a>
 
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+      <!-- Pill 3: Emergency -->
+      <a href="tel:+919925601601" class="w-full relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-r from-[#DC2626]/90 via-[#B91C1C]/80 to-[#7F1D1D]/90 border border-red-400/40 shadow-xl text-left flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-lg">🚨</div>
+          <div>
+            <span class="text-sm font-bold text-white block font-heading">24/7 ICU Emergency Helpline</span>
+            <span class="text-[11px] text-red-100 font-medium block">9925 601 601 &bull; Trauma &amp; Ventilator Care</span>
+          </div>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white">&gt;</div>
+      </a>
+
+      <!-- Pill 4: Call Doctor -->
+      <a href="tel:+919428587969" class="w-full relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-r from-[#2563EB]/90 via-[#1D4ED8]/80 to-[#1E3A8A]/90 border border-blue-400/40 shadow-xl text-left flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-lg">📞</div>
+          <div>
+            <span class="text-sm font-bold text-white block font-heading">Call Doctor Directly</span>
+            <span class="text-[11px] text-blue-100 font-medium block">+91 94285 87969 &bull; Consultations</span>
+          </div>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white">&gt;</div>
+      </a>
+
+      <!-- Pill 5: Qualifications -->
+      <button onclick="openQuals()" class="w-full relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-r from-[#7C3AED]/90 via-[#6D28D9]/80 to-[#4C1D95]/90 border border-purple-400/40 shadow-xl text-left flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-lg">🎓</div>
+          <div>
+            <span class="text-sm font-bold text-white block font-heading">Qualifications &amp; Lilavati Fellowship</span>
+            <span class="text-[11px] text-purple-100 font-medium block">MBBS, MD (Respiratory), Fellowship Critical Care</span>
+          </div>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white">&gt;</div>
+      </button>
+
+      <!-- Pill 6: Location -->
+      <a href="https://maps.google.com/?q=Premier+Hospital+ICU+RK+Prime+Plus+150+Feet+Ring+Road+Rajkot" target="_blank" rel="noopener noreferrer" class="w-full relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-r from-[#0D9488]/90 via-[#0F766E]/80 to-[#115E59]/90 border border-teal-400/40 shadow-xl text-left flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-lg">📍</div>
+          <div>
+            <span class="text-sm font-bold text-white block font-heading">Hospital Location &amp; Directions</span>
+            <span class="text-[11px] text-teal-100 font-medium block">1st &amp; 7th Floor, RK Prime Plus, Rajkot</span>
+          </div>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white">&gt;</div>
+      </a>
+
+      <!-- Pill 7: Website -->
+      <a href="https://premierhospital.co.in" target="_blank" rel="noopener noreferrer" class="w-full relative overflow-hidden rounded-2xl p-3 sm:p-3.5 bg-gradient-to-r from-[#475569]/90 via-[#334155]/80 to-[#1E293B]/90 border border-slate-400/30 shadow-xl text-left flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <div class="w-11 h-11 rounded-full bg-white/20 flex items-center justify-center text-lg">🌐</div>
+          <div>
+            <span class="text-sm font-bold text-white block font-heading">Premier Hospital &amp; ICU Website</span>
+            <span class="text-[11px] text-slate-200 font-medium block">www.premierhospital.co.in &bull; Facilities</span>
+          </div>
+        </div>
+        <div class="w-8 h-8 rounded-full bg-white/20 flex items-center justify-center text-white">&gt;</div>
+      </a>
+
+    </div>
+
+    <!-- 4 Bottom Highlights -->
+    <div class="w-full mt-6 grid grid-cols-4 gap-2 px-1">
+      <div class="p-2.5 rounded-xl bg-slate-900/60 backdrop-blur-md border border-white/10 text-center space-y-1">
+        <span class="text-sm">❤️‍🩹</span>
+        <span class="text-[10px] font-bold text-slate-200 block leading-tight">Critical Care &amp; ICU</span>
+      </div>
+      <div class="p-2.5 rounded-xl bg-slate-900/60 backdrop-blur-md border border-white/10 text-center space-y-1">
+        <span class="text-sm">🫁</span>
+        <span class="text-[10px] font-bold text-slate-200 block leading-tight">Pulmonology &amp; Asthma</span>
+      </div>
+      <div class="p-2.5 rounded-xl bg-slate-900/60 backdrop-blur-md border border-white/10 text-center space-y-1">
+        <span class="text-sm">⚡</span>
+        <span class="text-[10px] font-bold text-slate-200 block leading-tight">Mechanical Ventilation</span>
+      </div>
+      <div class="p-2.5 rounded-xl bg-slate-900/60 backdrop-blur-md border border-white/10 text-center space-y-1">
+        <span class="text-sm">🏆</span>
+        <span class="text-[10px] font-bold text-slate-200 block leading-tight">Lilavati Fellow</span>
+      </div>
+    </div>
+
+    <!-- Slogan & Footer -->
+    <div class="mt-5 mb-2 px-4 py-1.5 rounded-full bg-white/5 border border-white/10 text-[10px] font-semibold text-slate-400 uppercase tracking-widest text-center">
+      Premier Hospital &amp; ICU &bull; Rajkot
+    </div>
+    <p class="text-[10px] text-slate-500 text-center mb-6">
+      &copy; 2026 Dr. Avinash Kasundra. All rights reserved.
+    </p>
+
+  </main>
+
+  <!-- MODAL: BOOK APPOINTMENT -->
+  <div id="bookingModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/75 backdrop-blur-sm flex items-center justify-center p-3">
+    <div class="relative bg-[#0d172e] text-white w-full max-w-md rounded-3xl shadow-2xl border border-white/15 overflow-hidden">
+      <div class="bg-gradient-to-r from-[#263F91] to-[#152B56] p-5 flex items-center justify-between border-b border-white/10">
+        <div>
+          <span class="text-[10px] uppercase font-bold tracking-widest text-blue-300 block">Premier Hospital &amp; ICU</span>
+          <h3 class="text-base font-bold font-heading">Book OPD Appointment</h3>
+        </div>
+        <button onclick="closeBooking()" class="text-white/80 hover:text-white p-1">✕</button>
+      </div>
+
+      <div class="p-5">
+        <form id="modalForm" onsubmit="handleModalSubmit(event)" class="space-y-3.5">
+          <div>
+            <label class="block text-[11px] font-bold text-slate-300 uppercase mb-1">Patient Name *</label>
+            <input type="text" id="mName" required placeholder="Full Name" class="w-full px-3.5 py-2.5 text-xs rounded-xl bg-slate-900 border border-white/15 text-white focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-[11px] font-bold text-slate-300 uppercase mb-1">Mobile Number (Indian 10-digit) *</label>
+            <input type="tel" id="mPhone" maxlength="10" required pattern="^[6-9]\d{9}$" placeholder="98250 12345" class="w-full px-3.5 py-2.5 text-xs rounded-xl bg-slate-900 border border-white/15 text-white focus:outline-none">
+          </div>
+          <div class="grid grid-cols-2 gap-2.5">
             <div>
-              <label class="block text-xs font-bold text-[#152B56] uppercase mb-1">Preferred Date *</label>
-              <input type="date" id="fDate" required class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-300 focus:border-[#263F91] focus:outline-none">
+              <label class="block text-[11px] font-bold text-slate-300 uppercase mb-1">Date *</label>
+              <input type="date" id="mDate" required class="w-full px-2.5 py-2 text-xs rounded-xl bg-slate-900 border border-white/15 text-white focus:outline-none">
             </div>
             <div>
-              <label class="block text-xs font-bold text-[#152B56] uppercase mb-1">OPD Session</label>
-              <select id="fSlot" class="w-full px-3.5 py-2.5 text-sm rounded-xl border border-slate-300 focus:border-[#263F91] focus:outline-none bg-white">
-                <option value="Morning: 10:00 AM – 1:00 PM">Morning: 10:00 AM – 1:00 PM</option>
-                <option value="Evening: 5:00 PM – 8:00 PM">Evening: 5:00 PM – 8:00 PM</option>
+              <label class="block text-[11px] font-bold text-slate-300 uppercase mb-1">Slot</label>
+              <select id="mSlot" class="w-full px-2 py-2 text-xs rounded-xl bg-slate-900 border border-white/15 text-white focus:outline-none">
+                <option value="Morning: 10:00 AM – 1:00 PM">Morning (10–1 PM)</option>
+                <option value="Evening: 5:00 PM – 8:00 PM">Evening (5–8 PM)</option>
               </select>
             </div>
           </div>
-
-          <div>
-            <label class="block text-xs font-bold text-[#152B56] uppercase mb-1">Reason for Consultation (optional)</label>
-            <input type="text" id="fReason" placeholder="e.g. Asthma symptoms, chronic cough, post-ICU review" class="w-full px-4 py-2.5 text-sm rounded-xl border border-slate-300 focus:border-[#263F91] focus:outline-none">
-          </div>
-
-          <div class="pt-2 flex flex-col sm:flex-row items-center gap-3">
-            <button type="submit" id="btnSubmit" class="w-full sm:flex-1 bg-[#263F91] hover:bg-[#152B56] text-white font-semibold text-sm py-3.5 px-6 rounded-xl transition-colors">
-              Send Appointment Inquiry
+          <div class="pt-2 flex flex-col gap-2">
+            <button type="submit" id="btnModalSubmit" class="w-full bg-[#263F91] hover:bg-blue-600 text-white font-bold text-xs py-3 rounded-xl transition-colors">
+              Send Appointment Request
             </button>
-            <button type="button" onclick="sendQuickWhatsApp()" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-emerald-50 hover:bg-emerald-100 text-emerald-800 text-xs sm:text-sm font-bold py-3.5 px-5 rounded-xl border border-emerald-300 transition-colors">
-              💬 Book via WhatsApp
+            <button type="button" onclick="sendModalWhatsApp()" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold text-xs py-2.5 rounded-xl transition-colors">
+              💬 Book Instantly via WhatsApp
             </button>
           </div>
         </form>
 
-        <div id="formSuccess" class="hidden text-center py-6 space-y-3">
-          <div class="text-4xl">✅</div>
-          <h3 class="text-xl font-bold text-[#152B56]">Inquiry Transmitted</h3>
-          <p class="text-xs sm:text-sm text-slate-600">Hospital staff will call you shortly to confirm your token.</p>
+        <div id="modalSuccess" class="hidden text-center py-4 space-y-2">
+          <div class="text-3xl">✅</div>
+          <h4 class="text-base font-bold">Inquiry Transmitted!</h4>
+          <p class="text-xs text-slate-400">Hospital staff will call you shortly to confirm your token.</p>
+          <button onclick="closeBooking()" class="text-xs text-blue-400 underline mt-2">Close</button>
         </div>
       </div>
-    </section>
-
+    </div>
   </div>
 
-  <!-- Footer -->
-  <footer class="bg-[#152B56] text-white pt-10 pb-6 border-t border-blue-900/60 mt-16">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-blue-200">
-      <p>&copy; 2026 Dr. Avinash Kasundra &bull; Premier Hospital &amp; ICU, Rajkot.</p>
-      <div class="flex items-center gap-4">
-        <a href="tel:+919428587969" class="hover:text-white">Doctor: +91 94285 87969</a>
-        <span>&bull;</span>
-        <a href="tel:+919925601601" class="hover:text-white">Hospital: 9925 601 601</a>
+  <!-- MODAL: QUALIFICATIONS -->
+  <div id="qualsModal" class="hidden fixed inset-0 z-50 overflow-y-auto bg-black/75 backdrop-blur-sm flex items-center justify-center p-3">
+    <div class="relative bg-[#0d172e] text-white w-full max-w-md rounded-3xl shadow-2xl border border-white/15 overflow-hidden">
+      <div class="bg-gradient-to-r from-[#7C3AED] to-[#4C1D95] p-5 flex items-center justify-between border-b border-white/10">
+        <div>
+          <span class="text-[10px] uppercase font-bold tracking-widest text-purple-200 block">Verified Medical Degrees</span>
+          <h3 class="text-base font-bold font-heading">Qualifications &amp; Fellowships</h3>
+        </div>
+        <button onclick="closeQuals()" class="text-white/80 hover:text-white p-1">✕</button>
+      </div>
+      <div class="p-5 space-y-3 text-xs text-slate-300">
+        <div class="p-3.5 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+          <span class="text-[10px] font-bold text-purple-300 uppercase block">Super-Specialty Fellowship</span>
+          <h4 class="text-sm font-bold text-white">Fellowship in Critical Care Medicine</h4>
+          <p class="text-xs font-semibold text-purple-200">Lilavati Hospital – Mumbai</p>
+          <p class="text-[11px] text-slate-400">Invasive mechanical ventilation, ARDS, septic shock, hemodynamic monitoring.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+          <span class="text-[10px] font-bold text-emerald-400 uppercase block">Postgraduate Degree</span>
+          <h4 class="text-sm font-bold text-white">MD (Respiratory Medicine)</h4>
+          <p class="text-[11px] text-slate-400">Pulmonary ailments, chronic asthma, COPD, pneumonia, tuberculosis.</p>
+        </div>
+        <div class="p-3.5 rounded-2xl bg-white/5 border border-white/10 space-y-1">
+          <span class="text-[10px] font-bold text-blue-400 uppercase block">Medical Graduation</span>
+          <h4 class="text-sm font-bold text-white">MBBS</h4>
+          <p class="text-[11px] text-slate-400">Bachelor of Medicine &amp; Surgery &bull; Clinical rotations and internship.</p>
+        </div>
+        <button onclick="closeQuals()" class="w-full mt-2 bg-white/10 hover:bg-white/20 text-white font-bold text-xs py-2.5 rounded-xl">Close</button>
       </div>
     </div>
-  </footer>
-
-  <!-- Floating WhatsApp -->
-  <aside aria-label="WhatsApp quick contact" class="fixed bottom-6 right-5 z-40">
-    <a
-      href="https://wa.me/919428587969?text=Hello%20Dr.%20Avinash%20Kasundra,%20I%20would%20like%20to%20inquire%20about%20an%20appointment%20at%20Premier%20Hospital%20%26%20ICU,%20Rajkot."
-      target="_blank"
-      rel="noopener noreferrer"
-      class="flex items-center justify-center w-14 h-14 bg-[#25D366] hover:bg-[#20ba5a] text-white rounded-full shadow-2xl transition-transform hover:scale-105"
-      aria-label="Book on WhatsApp"
-    >
-      <span class="text-2xl">💬</span>
-    </a>
-  </aside>
+  </div>
 
   <script>
-    document.getElementById('fDate').min = new Date().toISOString().split('T')[0];
+    document.getElementById('mDate').min = new Date().toISOString().split('T')[0];
 
-    async function handleFormSubmit(e) {
+    function openBooking() { document.getElementById('bookingModal').classList.remove('hidden'); }
+    function closeBooking() { document.getElementById('bookingModal').classList.add('hidden'); }
+    function openQuals() { document.getElementById('qualsModal').classList.remove('hidden'); }
+    function closeQuals() { document.getElementById('qualsModal').classList.add('hidden'); }
+
+    function shareLink() {
+      if (navigator.share) {
+        navigator.share({ title: 'Dr. Avinash Kasundra', url: window.location.href });
+      } else {
+        navigator.clipboard.writeText(window.location.href);
+        alert('Link copied to clipboard!');
+      }
+    }
+
+    async function handleModalSubmit(e) {
       e.preventDefault();
-      const btn = document.getElementById('btnSubmit');
+      const btn = document.getElementById('btnModalSubmit');
       btn.textContent = 'Transmitting...';
       btn.disabled = true;
 
@@ -413,33 +328,30 @@
           method: 'POST',
           headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
           body: JSON.stringify({
-            _subject: 'OPD Inquiry: ' + document.getElementById('fName').value,
-            fullName: document.getElementById('fName').value,
-            phone: document.getElementById('fPhone').value,
-            date: document.getElementById('fDate').value,
-            slot: document.getElementById('fSlot').value,
-            reason: document.getElementById('fReason').value
+            _subject: 'OPD Inquiry: ' + document.getElementById('mName').value,
+            name: document.getElementById('mName').value,
+            phone: document.getElementById('mPhone').value,
+            date: document.getElementById('mDate').value,
+            slot: document.getElementById('mSlot').value
           })
         });
       } catch(err) {}
 
-      document.getElementById('standaloneForm').classList.add('hidden');
-      document.getElementById('formSuccess').classList.remove('hidden');
+      document.getElementById('modalForm').classList.add('hidden');
+      document.getElementById('modalSuccess').classList.remove('hidden');
     }
 
-    function sendQuickWhatsApp() {
-      const name = document.getElementById('fName')?.value.trim() || '[Patient Name]';
-      const phone = document.getElementById('fPhone')?.value.trim() || '[Phone Number]';
-      const date = document.getElementById('fDate')?.value || '[Preferred Date]';
-      const slot = document.getElementById('fSlot')?.value || 'Morning: 10:00 AM – 1:00 PM';
-      const reason = document.getElementById('fReason')?.value.trim() || '';
+    function sendModalWhatsApp() {
+      const name = document.getElementById('mName')?.value.trim() || '[Patient Name]';
+      const phone = document.getElementById('mPhone')?.value.trim() || '[Phone Number]';
+      const date = document.getElementById('mDate')?.value || '[Preferred Date]';
+      const slot = document.getElementById('mSlot')?.value || 'Morning: 10:00 AM – 1:00 PM';
 
       let text = 'Hello, I would like to inquire about an appointment with Dr. Avinash Kasundra at Premier Hospital & ICU, Rajkot.\n\n';
       text += '• Name: ' + name + '\n';
       text += '• Preferred Date: ' + date + '\n';
       text += '• Preferred Time: ' + slot + '\n';
       text += '• Contact Number: ' + phone + '\n';
-      if (reason) text += '• Reason for Consultation: ' + reason + '\n';
       text += '\nPlease share the available appointment details.';
 
       window.open('https://wa.me/919428587969?text=' + encodeURIComponent(text), '_blank');
